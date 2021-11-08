@@ -1,7 +1,8 @@
 {
-  "name": "Elovation",
-  "description": "An open source Rails application for tracking multiplayer game scores",
-  "repository": "https://github.com/elovation/elovation",
+  "name": "Solid ❤️",
+  "stack": "heroku-18",
+  "description": "Ranking system for Solid Heart Billiard Tournament",
+  "repository": "https://github.com/demhareesan/elovation",
   "keywords": ["rails", "ruby"],
   "success_url": "/",
   "addons": ["heroku-postgresql:hobby-dev"],
@@ -18,17 +19,17 @@
     },
     "BASIC_AUTH": {
       "description": "Would you like basic authentication? (true/false)",
-      "value": "false"
+      "value": "true"
     },
     "BASIC_AUTH_USER": {
       "description": "If basic auth is enabled, set your username, otherwise leave blank",
       "value": "",
-      "required": false
+      "required": true
     },
     "BASIC_AUTH_PASSWORD": {
       "description": "If basic auth is enabled, set your password, otherwise leave blank",
       "value": "",
-      "required": false
+      "required": true
     }
   },
   "scripts": {

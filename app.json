@@ -1,8 +1,8 @@
 {
   "name": "Solid ❤️",
   "stack": "heroku-18",
-  "description": "Ranking system for Solid Heart Billiard Tournament",
-  "repository": "https://github.com/demhareesan/elovation",
+  "description": "Elo/Trueskill ranking system",
+  "repository": "https://github.com/oyvindmo/elovation",
   "keywords": ["rails", "ruby"],
   "success_url": "/",
   "addons": ["heroku-postgresql:hobby-dev"],

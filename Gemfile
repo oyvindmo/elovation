@@ -18,7 +18,8 @@ gem 'therubyracer', platforms: :ruby
 
 gem 'dynamic_form'
 gem 'elo'
-gem 'trueskill', github: 'saulabs/trueskill', require: 'saulabs/trueskill'
+#gem 'trueskill', github: 'saulabs/trueskill', require: 'saulabs/trueskill'
+gem 'trueskill', git: 'https://github.com/saulabs/trueskill.git'
 
 group :production do
   gem 'unicorn'

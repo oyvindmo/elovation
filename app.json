@@ -1,6 +1,6 @@
 {
-  "name": "Solid ❤️",
-  "stack": "heroku-18",
+  "name": "omo",
+  "stack": "heroku-20",
   "description": "Elo/Trueskill ranking system",
   "repository": "https://github.com/oyvindmo/elovation",
   "keywords": ["rails", "ruby"],

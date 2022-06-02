@@ -19,17 +19,17 @@
     },
     "BASIC_AUTH": {
       "description": "Would you like basic authentication? (true/false)",
-      "value": "true"
+      "value": "false"
     },
     "BASIC_AUTH_USER": {
       "description": "If basic auth is enabled, set your username, otherwise leave blank",
       "value": "",
-      "required": true
+      "required": false
     },
     "BASIC_AUTH_PASSWORD": {
       "description": "If basic auth is enabled, set your password, otherwise leave blank",
       "value": "",
-      "required": true
+      "required": false
     }
   },
   "scripts": {
